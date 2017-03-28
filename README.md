@@ -6,11 +6,11 @@ The Pi uses Flask to run a simple Python web-server on the local network. Anytim
 
 ## Set up
 
-1. Download and install (Raspbian Jessie with Pixel)[https://www.raspberrypi.org/downloads/raspbian/] to your Pi
+1. Download and install [Raspbian Jessie with Pixel](https://www.raspberrypi.org/downloads/raspbian/) to your Pi
 1. Connect your Pi to your network with an Ethernet cable and power it up
 1. Find out your Pi's internal IP address (I like using Fing mobile app)
-  * (Fing for Android)[https://play.google.com/store/apps/details?id=com.overlook.android.fing&hl=en]
-  * (Fing for iOS)[https://itunes.apple.com/us/app/fing-network-scanner/id430921107?mt=8]
+  * [Fing for Android](https://play.google.com/store/apps/details?id=com.overlook.android.fing&hl=en)
+  * [Fing for iOS](https://itunes.apple.com/us/app/fing-network-scanner/id430921107?mt=8)
 1. (Optional) SSH into your Pi from another computer on the network for the following steps
 1. Log into your pi. If you are booted to the GUI, open up Terminal
 1. Configure your pi, `sudo raspi-config`. You may have to dig around for some of the options below
