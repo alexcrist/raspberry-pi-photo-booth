@@ -24,9 +24,9 @@ The Pi uses Flask to run a simple Python web-server on the local network. Anytim
 1. Enter the code's folder, `cd photo-booth`
 1. Make a folder to store the photos, `mkdir photos` (Note: exact name is important)
 1. Edit `app.py` to use your Pi's internal IP address
-  1. `nano app.py`
-  1. Change `host='10.0.0.22'` on line 18 to be `host='YOUR PI'S INTERNAL IP ADDRESS'`
-  1. Save the file, `Ctrl-X` -> `y`
+    1. `nano app.py`
+    1. Change `host='10.0.0.22'` on line 18 to be `host='YOUR PI'S INTERNAL IP ADDRESS'`
+    1. Save the file, `Ctrl-X` -> `y`
 1. Give `app.py` permissions, `sudo chmod app.py 755` (Note: I'm actually not sure if you need to do this)
 1. Run `app.py`, `python app.py`
 1. Your photo booth is now running! Try going to `http://PI_IP_ADDRESS:2222` from another device on the network
