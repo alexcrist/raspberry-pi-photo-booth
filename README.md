@@ -1,4 +1,4 @@
-# photo-booth
+# raspberry-pi-photo-booth
 This is a project to make a home "photo booth" using a Raspberry Pi. Anytime somebody on the Pi's network goes to a website, the Pi snaps a photo and displays it on the website.
 
 ## How does it work?
